@@ -31,8 +31,11 @@ BrandDrop is a high-performance brand extraction and identity system generator. 
 Create a `.env.local` file at the root:
 
 ```bash
-GOOGLE_AI_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
+
+> [!IMPORTANT]
+> **Security Note:** Your `GEMINI_API_KEY` is kept safe by the `.gitignore` file and is never uploaded to the public GitHub repository. When deploying to Netlify, you must manually add this key in the **Site Settings > Environment Variables** section of the Netlify dashboard.
 
 ### 3. Installation
 
