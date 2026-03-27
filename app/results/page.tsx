@@ -290,7 +290,7 @@ export default function Results() {
               </div>
               {logoUsage.donts?.length > 0 && (
                 <div>
-                  <span className="text-[10px] text-zinc-500 uppercase tracking-widest font-label block mb-2">Don'ts</span>
+                  <span className="text-[10px] text-zinc-500 uppercase tracking-widest font-label block mb-2">Don&apos;ts</span>
                   <ul className="space-y-1">
                     {logoUsage.donts.map((d, i) => (
                       <li key={i} className="text-xs text-zinc-400 font-body flex gap-2 items-start"><span className="text-error text-[10px] mt-0.5">✕</span> {d}</li>
@@ -374,7 +374,7 @@ export default function Results() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-[10px] text-error font-label uppercase tracking-widest mb-2 flex items-center gap-1"><span className="material-symbols-outlined text-[12px]">cancel</span> Don't</h3>
+                  <h3 className="text-[10px] text-error font-label uppercase tracking-widest mb-2 flex items-center gap-1"><span className="material-symbols-outlined text-[12px]">cancel</span> Don&apos;t</h3>
                   <ul className="space-y-2">
                     {dosAndDonts.donts.map((d, i) => (
                       <li key={i} className="text-xs text-zinc-500 font-body pl-3 border-l hover:border-error transition-colors border-white/10">{d}</li>
